@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "nodemon .output/server/index.mjs",
+    "release": "python3 .devops/release.py",
+    "update": "ssh vh07.maax.gr 'cd /srv/grossmax && docker-compose pull && docker-compose up -d'"
+  },
+  "devDependencies": {
+    "@nuxt/content": "^2.3.0",
+    "@nuxtjs/tailwindcss": "^6.2.0",
+    "nodemon": "^2.0.20",
+    "nuxt": "^3.0.0"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "^8.0.0-alpha.2",
+    "axios": "^1.1.3",
+    "bootstrap-icons": "^1.9.1",
+    "country-flag-icons": "^1.5.5",
+    "typed.js": "^2.0.12"
+  }
+}

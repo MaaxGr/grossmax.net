@@ -1,0 +1,14 @@
+nuxt/node_modules
+*.log*
+nuxt/.nuxt
+nuxt/.nitro
+nuxt/.cache
+nuxt/.output
+nuxt/.env
+nuxt/dist
+.idea
+
+node_modules
+dist
+.nuxt
+.output
