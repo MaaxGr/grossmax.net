@@ -19,14 +19,6 @@ const props = defineProps({
         </div>
         <div class="column right">
           <IndexProgressBarInfo v-for="technology of technologies" :key="technology.title" :title="technology.title" :subtitle="technology.subtitle"  :percent="technology.percentage"></IndexProgressBarInfo>
-
-          <!--<IndexProgressBarInfo title="Kotlin Backends" subtitle="RestAPIs, Ktor, Ktorm, Koin" :percent=100></IndexProgressBarInfo>
-          <IndexProgressBarInfo title="DevOps" subtitle="Debian, Docker, GitLab" :percent=90></IndexProgressBarInfo>
-          <IndexProgressBarInfo title="MySQL" subtitle="CRUD, Grants, Replication" :percent=80></IndexProgressBarInfo>
-          <IndexProgressBarInfo title="Vue" subtitle="TypeScript, JavaScript, Composition API" :percent=70></IndexProgressBarInfo>
-          <IndexProgressBarInfo title="Android" subtitle="Kotlin, MVVM, Jetpack Compose" :percent=60></IndexProgressBarInfo>
-          <IndexProgressBarInfo title="Oracle" subtitle="CRUD, Stored Procedures" :percent=50></IndexProgressBarInfo>
-          <IndexProgressBarInfo title="PHP" subtitle="Dashboards, Scripting" :percent=40></IndexProgressBarInfo>-->
         </div>
       </div>
     </div>
