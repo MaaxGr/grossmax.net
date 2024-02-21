@@ -4,7 +4,7 @@ import axios from "axios";
 
 
 const { data: projects } = await useAsyncData( 'projects', async () => {
-  return (await axios.get("http://backend.grossmax.net/data/projects?sort_desc=order")).data
+  return (await axios.get("https://backend.grossmax.net/data/projects?sort_desc=order")).data
 });
 
 const { data: technologies } = await useAsyncData( 'technologies', async () => {
